@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Pricing" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Pricing" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Pricing" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AntiThetic.cpp" />
+		<Unit filename="AntiThetic.h" />
+		<Unit filename="BlackScholesFormulas.cpp" />
+		<Unit filename="BlackScholesFormulas.h" />
+		<Unit filename="ConvergenceTable.cpp" />
+		<Unit filename="ConvergenceTable.h" />
+		<Unit filename="MCStatistics.cpp" />
+		<Unit filename="MCStatistics.h" />
+		<Unit filename="Normals.cpp" />
+		<Unit filename="Normals.h" />
+		<Unit filename="Parameters.cpp" />
+		<Unit filename="Parameters.h" />
+		<Unit filename="ParkMiller.cpp" />
+		<Unit filename="ParkMiller.h" />
+		<Unit filename="PayOff1.cpp" />
+		<Unit filename="PayOff1.h" />
+		<Unit filename="PayOffBridge.cpp" />
+		<Unit filename="PayOffBridge.h" />
+		<Unit filename="Random1.cpp" />
+		<Unit filename="Random1.h" />
+		<Unit filename="Random2.cpp" />
+		<Unit filename="Random2.h" />
+		<Unit filename="SimpleMC.cpp" />
+		<Unit filename="SimpleMC.h" />
+		<Unit filename="Vanilla1.cpp" />
+		<Unit filename="Vanilla1.h" />
+		<Unit filename="Wrapper.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
